@@ -1,0 +1,205 @@
+#I read the white side journal and I found that I needed to put in all failed attempts into the paper. 
+#Also, that the failed attempts go after the final conclution. 
+#I didn't realize that the process started long before data was taken and 
+#that I needed to build my argument around the data
+#One thing I was very confused over was the three sections. 
+#It said that there was only introduction, results, and conclution
+#What about data analysis. I always see this in astronomical journals. 
+#had troubles finding the proper terminal. Ended up using Git Bash which I had seperately installed into my computer
+#list of the codes I was using in git bash on 3/28
+#$ git config --list
+#$ git config --global user.name "Ryanj"
+#$ git config --global user.email "ryanj09@uw.edu"
+#$ git config --global color.ui "auto"
+#$ git config --global core.autocrlf true
+#$ git config --global core.editor "Notepad++"
+#or $ git config --global core.editor "nano -w" Decided to go with this one
+#or $ git config --global core.editor "emacs"
+#or $ git config --global core.editor "vim"
+#or $ git config --global core.editor "atom -wait"
+#$ mkdir planets
+#$ cd planets
+#$ git init
+#$ ls
+#$ ls -a
+#$ cd
+#$ cd planets
+#$ ls -a
+#$ mkdir moons
+#$ cd moons
+#$ git init
+#$ ls -a
+#$ rm -rf moons/.git caution
+
+#http://swcarpentry.github.io/git-novice/04-changes/
+#$ git commit -m "Start notes on Mars as a base" tell git what you changed
+#http://swcarpentry.github.io/git-novice/05-history/
+#$ git diff HEAD~1 mars.txt compare different edits that we made
+#http://swcarpentry.github.io/git-novice/07-github/
+#http://swcarpentry.github.io/git-novice/08-collab/
+#jSkycalc download
+#I would like to note that during this coding, I was feveriously working on it. 
+#Due to mental imparments, I was aware of what I was doing, but I was unaware of the code around me. 
+#I tried my best over the weekend to observe the sky. It was cloudy each night I checked. 
+
+#april 30th to may 1st we have observing time. 
+#ESO https://www.eso.org
+#staralt
+#today start a lab with a partner
+#Nasa has a collection of archieved catalog. 
+#astropy.coordinates.EarthLocation.get_site_names()
+
+#4/04/2018. Worked on fitting and working code for the HW assignment.
+#got most of the code writen and ran the first half. First half was completed without errors. 
+#The moon is a big trouble for us. The declination is right on top of our mean value for the data point's dec.
+#I have thought of this problem extensively, Firstly, its only on this spot on the first day, but since we are taking
+#the differenece between first and last observations. I can do one of the following, create a for loop for each
+#day and each position the moon will be in, ignore the moon, pick different points, or track the moon as it crosses
+#the sky and make a for loop for moon seperations distance. 
+
+#4/06/2018, Supercloudy week! No observations done. 
+#Spent the entire day getting new data points as we learned that the data we had didn't have enough variation.
+#Finished the code the class before and only freshened it up today. 
+
+#4/09/2018, searched the entire weekend and found that there wasn't a single cloundless night except friday,
+#which I skipped because I was felling really bad taht day.
+#Observing data project: based on new observations or archiveal pages
+#8-10 pages. without plots
+#is worth 30% of final grade. 
+#structured like a scientific data. Introcdutions, data, analysis, Results, conclusion. It will be graded on the rubric
+#in canvas. If data isn't deep enough, still write what you look for. 
+#April 20th observng project purposal due.
+#May 18th first draft
+#May 25th second draft
+#June 1st final draft
+#latex template will be provided. Can work in groups but need to submit own paper and code. 
+#april 30th - may 1st- birght A half nights on APO 3.5m. Imaging or spec
+#The Awing telescope is abaliable for observations.
+#make sure you understand what the data your looking at in archival data. 
+#Reading scientific papers: start with the abstract, does the paper sound interesting? 
+#look at the plots. What are they saying.
+#Read the conclusion, go back to the beginning and start from the top. 
+#voxcharta is a good way to find topics. 
+#annual review of astronomy and astrophysics article. 
+#Waited till night to see nothing but clouds. 
+#Project ideas, Looking into the question of how the magnetic fields from magnetars affect a star its companioned with
+#Looking into Hypernovas. 
+#TYC 3162 - 665-1 
+#If a magnetar is in binary with another star, theortically, the side of the star that faces the magnetar will have
+#more solar flares than the other.
+#Low mass star binay or acresion disk. 
+#count of the amount of stars in the orion nebula.https://ui.adsabs.harvard.edu/#abs/2001AJ....121.3160C/abstract
+#alternative nebula, M1-92 at apo, nicfps, TRIPLESPEC
+#Another idea, find the age of a globular cluster with spectroscopic data. target M3,M5,M13,M53,NGC4147,NGC5053,
+#open clusters: coma, 
+#IRC+10420 hypergiant geometroy from optical spectra.
+#due 4/20th
+
+#4/11/2018 Basics of observational observation.
+#What do we want to know about the star. 
+#We use mirrors to avoid harder aborations that we need to calculate.
+#Apparent mag Luminosity need to know distance to the object because of apparent mag. f=1/d^2
+#Resolution, R=wavelength/aperture. 
+#Flux per unit wavelength, for spec.
+#Working everywhere but were focusing on visible and may not work for the other bands.
+#Filters block certain light so you can see what light is being made. 
+#Lot of filters can be used for making low res spectrograph.
+#differential vs absoulte photometry, both include comparison to another star.
+#differential comparison to a star of unknown luminosity.
+#absolute comparison to a star of known luminosity. Want star to be close to same magnitude.
+#stars are not square like our detectors.Toss all partial pixels.could use those pixels(even though they will have sky)
+#Could use a weighting scheme.
+#Intervening materials. weather, dust, sky brightness, cranes, airmass.
+#Histogram function is completely missing from DS9.
+
+#4/13/2018 Worked on the fits files assignment. 
+#The histograms function was missing from the ds9 and I was unable to do anything with histograms. 
+#Been rainy all week and been unable to observe on any night. 
+#Going to spend some time over the weekned looking at low mass star binaries. 
+
+#4/16/2018 Spent little time looking at low mass binaries and instead opted to look for stars count in orion.
+#The entire weekend was cloudy.
+#ccd's and electronics on friday.
+#the bias or overscan is the black bar in the center. At the edges it was fainter but still a good square.
+#Scattered light at the black sections is from scattered lights.
+#not all telescopes record ra and dec
+#for the histograms we found in the hw problem:
+#poisson distributions, gaussian distribution. We look at our regions and figure out whether it was poisson or gaussian
+#65000 counts is the saturation of the ccd's were using.
+#poisson = photon> independant (quasi)
+#gaussian = variations in ccd readouts\electonics will cause a normal distribution around the bias level
+#you can also calculate the read noise and gain from this histogram
+#HCG is hickson compact group or galaxy cluster survey.
+#Group been in the top right so that it is off the electronics.
+#The dec and ra is slightly off because the telescope was slightly off because of above
+#wash filter avoids skyline faint background.
+#you lose extra light using a different filter in 1 observation, vs another, based on design. that's why apo images
+#Might look different from flatfits file because of the optical path design, things may very. 
+#detectors ccds: the collect then pass charges off. pixles are like buckets. When a bucket is full, it spills out
+#into the other pixels. ccds count for the minutes you ask for. It doesn't know when a photon was hit, just that it did
+#electrodes get charged and the charge gets carried on a silicon material to a computer.
+#readouts take time. They read out one rows that falls, and one pixel at a time. 20-40s is a good readout time.
+#Quantum efficency in %, how a ccd coverts photons into electricity. coatings of metal give far greater percentage.
+#ccd's work at liquid nitrogen temps since they give lots of dark current since everything is moving in the atoms.
+#dark current
+#12-15 um pixels are a standard pixel detectors. with small pixels, they take longer to get pixels into the buckets.
+#ccds are good because they are linear, pixels can saturate, gain is intrinsic, responsive in the optical fundamentally
+#a material issues, ccds have become commercially viable.
+#CMOS detectors reads out in each pixel. Issues around nose, heat and distance. because electronics fill pixel, image >
+#Signal to noise, the lower the harder it is to idenfity what you're looking at. 
+#ccds have several noise makers, short noise thermal, read noise bias. 
+#too large of a signal to noise will make operations long and its expensive to run.
+#Shot noise photons hit the chip and when they get there is dictated by poisson statistics 
+#so you will not get the same number at a given time.
+
+#4/18/2018
+#https://python4astronomers.github.io/core/numpy_scipy.html unfinished
+#Observed tonight and got an image of a few stars directly above me.I have not decomposed what I've seen yet.
+#Managed to get through most of what you had assigned but was unable to complete. 
+
+#4/20/2018 Completed the purposal and decided to go for observing and trying to understand yellow hypergiant IRC+10420
+#This specific star is great for observing due to the shear amount of observation there is on it and it is
+#Observed in the obtical. I'm concerned about witch spectra instrument to use at the APO telescope
+#I am also concerned that I will not have enough for a 10 page paper. IRC+10420 is observable on the schedualed time
+#My goal is to understand the propertiesandI'm concerned that I wont get enough info to know its more unique properties
+#Rushed to work on the lab today.
+
+#4/23/2018 Finished answering the questions on the fourth problem but did not write them up. 
+#Observed tonight. Saw a few different stars since the last obvservation. For some reason I think I'm looking at the
+#big dipper
+
+#4/25/2018 Gia data catalog on variable stars has been made public.
+#Project IRC 10420 spectra take, wolfray rey and AGB spectra to compare. IRC not visable when we can obvserve in apo
+#We can take spectra using a never before use spectragraph here in the school. 
+#Need to search for IRC counter parts that can be viewed in our observing time. 
+#High resolution spectrograph to observe IRC
+#By friday, need to find out how we are observing
+
+#4/27/2018 Searched for substitutes to IRC 10420 and could only find them on the opposite side of the nightsky ie. 0ra
+#IRC+10420 V and mag 11.66
+#Potential AGB, NR Vulpeculae or V* NR Vul, V band mag 9.36
+#Potential Wolf-Rayet stars WR 139 or HD 193576 Vband mag 8, WR 140or HD 193793 Vband mag 7.25, WR 147 or 
+#EM* AS 431 Vband mag 14.89
+#These magnitudes were what you asked me to sent to you to determine exposure time. Since I will have only two to
+#three hours to observe each star. 
+#Worked on getting the data for CCD in class. We have rather great data.
+
+4/30/2018 Photometry. 
+In a ccds we have to convert from analog to digital signals. ADC performs this operation. Read noise is the noise from the background and limitations of the ccd. Shot noise comes from the plison distributuin
+Issues of the CCD's are from fixed power loop. We want shot noise limited and not read noise.
+Data reduction and analysis. We can work backward from what has been added to the CCD after the phton is the bias.
+Bias are sometimes called zero, but here they are known as almost zero. 
+We subtract the bias because the read out is not based on a function of time. 
+Flat fields, image is not perfectly flat flat. It is an image illuminated evenly by light.
+This flat results in information about the pixel to pixel variaton. 
+If you make a histogram of a flat field, it would be a gaussian distribution 
+To use a flat field to flatten our observations- We divide our science observations by this.
+Darks CCDs even when cooled generate a small amount of thermal current. This scales with time. Often it is a small effect and people skip darks. We skip dark current
+
+Open tar files $tar -xvf file name
+
+5/02/2018 Worked more on completing the data reduction assianment. I got all the flats combined but I'm still working on how 
+to get the overscan removed.
+
+05/04/2018 I went to the A wing telescope and learned how to use it. Didn't manage to get any work done on the data reduction
+Sorry for the late turn in. I was so focused on the telescope that I forgot this was due on friday. 
