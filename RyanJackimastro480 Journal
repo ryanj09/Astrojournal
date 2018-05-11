@@ -203,3 +203,23 @@ to get the overscan removed.
 
 05/04/2018 I went to the A wing telescope and learned how to use it. Didn't manage to get any work done on the data reduction
 Sorry for the late turn in. I was so focused on the telescope that I forgot this was due on friday. 
+
+for my observation on monday, 1:30am should be the estimated time for when IRC will rise.
+
+5/07/2018 Worked in class on the reducing data assignment. Got almost all of the way done with the circular annulus
+Observed tonight at 1am. We were unable to figure out how to get the spectra graph to fit on the telescope so we could measure
+spectra. Instead, we used ccd data of my targets.
+
+5/09/2018 Worked at reducing data assignment. PSF photometry. 
+The point spread function of a star is like a gaussian. So when we are doing point spread function fitting, its going to try 
+to fit a gaussian function to our data. It gives us a greater ability since we can work with closely packed stars.
+Not good for non point sources like galaxies. I will see all the stars rather than just my ten.
+
+5/11/2018 Scientific paper. Approach, framework details. Approach, You are trying to answer a question or report a discovery
+Reporting guided by reprodesebility. Tie into larger field contex.
+framework, paper have sections: you don't need exactly these sections but this is the flow of information: introduction
+methods/data results and discussion, conclusion/summary. Details: include/present you data this might mean data tubbles, plots 
+or images. Include the theories and equations that you are using for your results and include assumptions.
+Reference, your information comes from somewhere. Make sure to credit that works approprately. Plots and tables should:
+be legiable, have captions and add references to them in the text. Legend is a good thing to do. When in doubt you should ask.
+Managed to finish the PSF for the Reducing image data. YEAH!
