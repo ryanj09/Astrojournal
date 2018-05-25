@@ -223,3 +223,57 @@ or images. Include the theories and equations that you are using for your result
 Reference, your information comes from somewhere. Make sure to credit that works approprately. Plots and tables should:
 be legiable, have captions and add references to them in the text. Legend is a good thing to do. When in doubt you should ask.
 Managed to finish the PSF for the Reducing image data. YEAH!
+
+5/14/2018 Worked on Usng Sdss survey data worksheet. I got all the way to making the color magnitude diagrams.
+I was able to calculate the distance from the camera to the outer casing of the CCD as 4 cm and the lip that hold the ccd
+on the telescope to be 1.5 cm. 
+
+5/16/2018 Need to work on the final project and to look up an alternative. Currently, I have the introduction drafted but 
+nothing else. I have a general layout made with references not intergrated. Cannot work on most of the discussion until I have
+data. Make up a fake abstract to work in place of what I have now. Just make up what I want to find. 
+
+For the lab today, I got most of my comparison data from:
+http://irsa.ipac.caltech.edu/cgi-bin/Radar/nph-estimation?mission=All&objstr=NGC++2682&mode=box&radius=0.413&radunits=deg&range=12.5+Deg.&data=Data+Set+Type&radnum=2222&irsa=IRSA+Only&submit=Get+Inventory&output=%2Firsa%2Fcm%2Fwebsite%2Firsa%2Fshare%2Fwsvc%2FRadar%2Fcatlist.tbl_type&url=%2Fworkspace%2FTMP_TmWZfL_12495&dir=%2Fwork%2FTMP_TmWZfL_12495&polygon=%40%B25J%9B%7F&snull=matches+only&datav=Data+Set+Type
+Use code from: http://www.astropy.org/astropy-tutorials/Coordinates.html
+
+5/18/2018 Worked on the paper. I have so far made only one page of 10p text that covers the entire introduction and had added 
+little to other places due to the lack of data. Found backup spectra of IRC+10420 in case things go wrong. Found it for 
+two different wavelengthers here http://cdsportal.u-strasbg.fr/?target=IRC%20%2B10420,
+3mm: http://cdsarc.u-strasbg.fr/viz-bin/vizExec/Vgraph?J/A+A/592/A51/10420_3mm.fits&,
+1mm: http://cdsarc.u-strasbg.fr/viz-bin/vizExec/Vgraph?J/A+A/592/A51/10420_1mm.fits&
+Need to understand how to read these files becuase the axis makes little sense and is not copied over when downloaded.
+I worked on the SDSS survey data 
+
+5/21/2018 Scowered the internet and all sources I could think of to find spectral data on a yellow hypergiant. Found this site
+that had data ready to download but couldn't figure out how to view the files
+http://etacar.umn.edu/LuminousStars/M31M33/M33YSG.html
+Got the idea to go here from this paper http://iopscience.iop.org/article/10.1088/0004-637X/773/1/46/pdf
+Found this nice sheet of classifying spectral types
+https://www.cfa.harvard.edu/~pberlind/atlas/htmls/note.html
+Managed to get your link to work and gathered the research document from this link
+https://www.aanda.org/articles/aa/pdf/2017/05/aa29146-16.pdf
+
+5/23/2018 Gave up on finding spectra of my target and instead found photometry from this link
+https://archive.stsci.edu/cgi-bin/dss_form?target=IRC%2B10420&action=search&resolver=SIMBAD&radius=10.0
+Plan on changing my research project to prodicting the extended atmosphere around IRC+10420
+And 2 mass photometric data can be found at this link
+https://irsa.ipac.caltech.edu/applications/2MASS/IM/interactive.html
+Machine learning with python: look at chapter 5 of python data science handbook on canvas.
+Running through some tutorials about machine learning. http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+working with text data http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+work on one of the two assiangments.
+machine learning is a way to build mathematcal models of data
+a way to inform our models wiht our data *a tool for classification, identification studying clustered or continuous data.
+
+5/25/2018 Desperately tried to gather enough content to fill 10 pages worth of text for my observation project.
+Machine learning. Compueter programing: a set of instructions telling a computer hardward via a computer what to do.
+Supervised learning: use training data to each the algorithm what inputs maps to what output, based on the training set.
+here it matters what your sturcuture/algorithm is, but also decisisons made in creating your training data
+Using unsupervised learning. No inputs or present categories or lables to match. this can both be useful in producing unbiased
+information about a data set - but also s not constrained by your questions.(computers don't know physics)
+naive bayes: good starting point, especially for well separated classes. Fast so easy to test. assumes everything s drawn from 
+a gaussian distribution. 
+One way to engage programming tutorials: first read through it. Don't copy the code, type them. Don't feel trapped by the
+tutorial. If it fails, then find out why by using other tools like python or slack overflow. astrobetter. Read carefully.
+Trust yourself and ask a friend. Sometimes tutorials could be wrong or broken in some way. 
+Worked more on the machine learning lab. I'm working on the second page of the lab.
